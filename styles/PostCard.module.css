@@ -1,0 +1,41 @@
+.post__box{
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.btn__container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.pub__btn{
+    display: block;
+    width: 100px;
+    padding: 10px 15px;
+    border: 0;
+    background: rgb(6, 110, 28);
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.del__btn{
+    display: block;
+    width: 100px;
+    padding: 10px 15px;
+    border: 0;
+    background: rgb(97, 4, 4);
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.pub__btn:hover, .del__btn:hover{
+    background: #5E503F;
+    cursor: pointer;
+}
